@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="icon" href="./img/letter-ha-logo-design-vector-template-initial-linked-letter-ha-vector-illustration-2AP4T6J.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <section id="header">
+            <div class="header container">
+              <div class="nav-bar">
+                <div class="brand">
+                  <a href="#hero">
+                    <h1><span>M</span>y <span>P</span>ortfolio</h1>
+                  </a>
+                </div>
+                <div class="nav-list">
+                  <div class="hamburger">
+                    <div class="bar"></div>
+                  </div>
+                  <ul>
+                    <li><a href="#about" data-after="About" id="home">Home
+                        <script>
+                        document.getElementById('home').addEventListener('click', function() {
+                          window.location.href = 'index.html'; // Assuming 'index.html' is the index Me page
+                      });</script>
+                      </a></li>
+                    <li><a href="#about" data-after="About" id="btn1">About Me
+                      <script>
+                      document.getElementById('btn1').addEventListener('click', function() {
+                        window.location.href = 'about.html'; // Assuming 'about-me.html' is the About Me page
+                    });</script>
+                    </a></li>
+                    <li><a href="#projects" data-after="Project" id="proj">Projects
+                      <script>
+                        document.getElementById('proj').addEventListener('click', function() {
+                          window.location.href = 'project.html'; // Assuming 'project.html.html' is the project  page
+                      });</script>
+                    </a></li>
+                    
+                    <li><a href="#contact" data-after="Contact" id="cont">Contact
+                      <script>document.getElementById('cont').addEventListener('click', function() {
+                        window.location.href = 'contact.html'; // Assuming 'project.html.html' is the project  page
+                    });</script>
+                    </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        <h2></h2>
+        
+        
+        <div class="container">
+            <div id="div">
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email">
+    
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="Your phone number">
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message" rows="5"></textarea>
+    
+                <input type="submit" value="Submit" class="cta" style="color: black;">
+            </form>
+          </div>
+            <div id="errorMessages" class="error"></div>
+        </div>
+        <div id="errorMessages" class="error"></div>
+    </div>
+
+    <script>
+        
+    </script>
+
+<style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  
+  
+  
+  border-radius: 8px;
+}
+h2 {
+  margin-top: 20px;
+  
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 5%;
+}
+label {
+  margin-bottom: 5px;
+  
+  font-size: large;
+}
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  
+}
+
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}</style>
+
+</body>
+</html>

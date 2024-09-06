@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Portfolio</title>
+  <link rel="icon" href="./img/letter-ha-logo-design-vector-template-initial-linked-letter-ha-vector-illustration-2AP4T6J.jpg">
+  
+  <script src="script.js"></script>
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>M</span>y <span>P</span>ortfolio</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#about" data-after="About" id="home">Home
+              <script>
+              document.getElementById('home').addEventListener('click', function() {
+                window.location.href = 'index.html'; // Assuming 'index.html' is the index Me page
+            });</script>
+            </a></li>
+            <li><a href="#about" data-after="About" id="btn1">About Me
+              <script>
+              document.getElementById('btn1').addEventListener('click', function() {
+                window.location.href = 'about.html'; // Assuming 'about-me.html' is the About Me page
+            });</script>
+            </a></li>
+            <li><a href="#projects" data-after="Project" id="proj">Projects
+              <script>
+                document.getElementById('proj').addEventListener('click', function() {
+                  window.location.href = 'project.html'; // Assuming 'project.html.html' is the project  page
+              });</script>
+            </a></li>
+            
+            <li><a href="#contact" data-after="Contact" id="cont">Contact
+              <script>document.getElementById('cont').addEventListener('click', function() {
+                window.location.href = 'contact.html'; // Assuming 'contact.html.html' 
+            });</script>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero" >
+    
+    <div class="hero container"  >
+      
+
+      <div>
+        
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Hamza Abrar <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+        
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  
+ 
+
+  
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>H</span>amza <span>A</span>brar</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/profile.php?id=100064056826686&mibextid=ZbWKwL"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/hamzaabrar002?igsh=MWVudmtmYzV2bHVmOA=="><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/hamza-abrar/"><img src="./img/circle-linkedin-512.webp" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Hamza. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>

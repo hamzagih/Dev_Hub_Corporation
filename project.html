@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="icon" href="./img/letter-ha-logo-design-vector-template-initial-linked-letter-ha-vector-illustration-2AP4T6J.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero">
+                <h1><span>M</span>y <span>P</span>ortfolio</h1>
+              </a>
+            </div>
+            <div class="nav-list">
+              <div class="hamburger">
+                <div class="bar"></div>
+              </div>
+              <ul>
+                <li><a href="#about" data-after="About" id="home">Home
+                    <script>
+                    document.getElementById('home').addEventListener('click', function() {
+                      window.location.href = 'index.html'; // Assuming 'index.html' is the index Me page
+                  });</script>
+                  </a></li>
+                <li><a href="#about" data-after="About" id="btn1">About Me
+                  <script>
+                  document.getElementById('btn1').addEventListener('click', function() {
+                    window.location.href = 'about.html'; // Assuming 'about-me.html' is the About Me page
+                });</script>
+                </a></li>
+                <li><a href="#projects" data-after="Project" id="proj">Projects
+                  <script>
+                    document.getElementById('proj').addEventListener('click', function() {
+                      window.location.href = 'project.html'; // Assuming 'project.html.html' is the project  page
+                  });</script>
+                </a></li>
+                
+                <li><a href="#contact" data-after="Contact" id="cont">Contact
+                  <script>document.getElementById('cont').addEventListener('click', function() {
+                    window.location.href = 'contact.html'; // Assuming 'project.html.html' is the project  page
+                });</script>
+                </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+     <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Stomach cancer image recognition</h2>
+            <p>Developed a CNN system for detecting and recognizing gastric cancer in video images with an impressive accuracy of 94.1%. Similarly, Yoon et al. developed an optimized model for EGC detection and prediction, which achieved high sensitivity (91%) and overall AUC (98.1%).</p>
+          </div>
+          <!-- <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div> -->
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2> Online Railway Ticket Reservation System</h2>
+            <p>If a passenger wants to reserve ticket(s), firstly, he/she has to log in to the Railway system with valid credentials. Then, the passenger has to provide his/her details with the date of the journey, names of the passengers and their details, origin station details, destination station details, and the class type of the required ticket(s). </p>
+          </div>
+          <!-- <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div> -->
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Travel Advisor</h2>
+            <p>In the digital age, the ability to access and search for travel-related
+              information quickly and efficiently is a valuable resource for travelers,
+              tourism enthusiasts, and industry professionals alike. To address this
+              need, the "Travel Advisor" project aims to develop a web application
+              that leverages modern web technologies to provide an intuitive and
+              responsive platform for searching and displaying travel-related data.
+              The core of this application is built using React JS, a popular
+              JavaScript library known for its robustness and flexibility in building
+              user interfaces.</p>
+          </div>
+          <!-- <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div> -->
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  
+</body>
+</html>
